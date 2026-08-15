@@ -142,7 +142,7 @@ DB_USER=root
 DB_PASSWORD=dein_passwort
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_NAME=amadpart_vip_05_5_19
+DB_NAME=data_base
 
 Die Datei `.env` darf nicht in ein öffentliches GitHub-Repository hochgeladen werden.
 
@@ -174,7 +174,7 @@ DB_USER = os.getenv("DB_USER", "root")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "")
 DB_HOST = os.getenv("DB_HOST", "127.0.0.1")
 DB_PORT = os.getenv("DB_PORT", "3306")
-DB_NAME = os.getenv("DB_NAME", "amadpart_vip_05_5_19")
+DB_NAME = os.getenv("DB_NAME", "data_base")
 
 
 connection_url = URL.create(
@@ -439,7 +439,7 @@ Prüfe:
 Beispiel für eine Leseberechtigung:
 
 sql
-GRANT SELECT ON amadpart_vip_05_5_19.*
+GRANT SELECT ON data_base.*
 TO 'report_user'@'localhost';
 
 ### Fehler: `Unknown column 'op.order_id'`
