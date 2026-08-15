@@ -38,6 +38,7 @@ Aktivierung unter Windows:
 
 powershell
 .venv\Scripts\activate
+```
 
 Installiere anschließend die benötigten Pakete:
 
@@ -1005,5 +1006,3 @@ python-dotenv
 
 Dieses Projekt kann entsprechend der Lizenz des jeweiligen Unternehmens oder Projekts verwendet werden.
 `
-
-یک نکته مهم در کد اصلی شما وجود دارد: در `SELECT` ستون‌های `barcode` و `technical_code` انتخاب شده‌اند، اما در `GROUP BY` قرار نگرفته‌اند. در MariaDB با فعال بودن `ONLY_FULL_GROUP_BY` این موضوع خطا ایجاد می‌کند؛ در نسخه آماده‌شده این مشکل اصلاح شده است.
